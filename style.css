@@ -54,7 +54,7 @@ button:hover {
   cursor: pointer;
 }
 
-.name {
+footer {
   display: block;
   margin: 10px auto;
   text-align: center;
