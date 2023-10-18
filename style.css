@@ -67,3 +67,44 @@ footer {
   margin: 0 auto;
   padding: 10px 30px;
 }
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+    padding: 6px;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  a {
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+  button {
+    display: block;
+    margin: 15px auto;
+    background: #fff;
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  footer {
+    font-size: 13px;
+  }
+
+  .container {
+    max-width: 210px;
+  }
+}
